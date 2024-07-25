@@ -72,7 +72,11 @@ class Pokemon:
             return f"Здоровье покемона увеличено. Текущее здоровье: {self.hp}"
         else:
             return f"Следующее время кормления покемона: {self.last_feed_time+delta_time}"
-        
+
+
+
+
+
 
 class Wizard(Pokemon):
     pass

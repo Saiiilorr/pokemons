@@ -48,5 +48,4 @@ def info_pok(message):
         d = pok.info()
         bot.send_message(message.chat.id, d)
 
-
 bot.infinity_polling(none_stop=True)
